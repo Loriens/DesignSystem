@@ -1,3 +1,9 @@
-struct ThemeMainDark: Theme {
-    let colors: Colors = ThemeMainDarkColors()
+public struct ThemeMainDark: Theme {
+    public let colors: Colors
+    public let font: Font
+
+    public init() {
+        self.colors = ThemeMainDarkColors()
+        font = MainThemeFont()
+    }
 }

@@ -1,3 +1,3 @@
 # DesignSystem
 
-A description of this package.
+It is a sandbox
